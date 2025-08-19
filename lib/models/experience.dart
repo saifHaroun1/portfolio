@@ -23,53 +23,38 @@ class Experience {
 
   static final List<Experience> ksExperiences = [
     Experience(
-      company: "BJS Soft Solutions PVT LTD",
-      position: "Sr Flutter Developer",
+      company: "Smart Team",
+      position: "Junior Flutter Developer",
       responsibilities: [
-        "Software House of Austrian Airlines of Lufthansa Group",
-        "Lead a team of 10 Developers",
-        "Closely collaborated with mobile developers, backend developers, UI/ UX designers and QA team for many apps",
-        "Taught Dart & Flutter to Interns",
-        "Maintained code quality by reviewing work of junior developers",
+        "Collaborated with cross-functional teams (mobile, backend, UI/UX, QA) to deliver high-quality mobile apps for Al Souq Al Arabi.",
+        "Ensured code quality and best practices by reviewing and maintaining clean, scalable Flutter code",
+        "Supported team growth by mentoring interns and guiding junior developers in Dart & Flutter",
       ],
-      startDate: DateTime(2023, 8),
-      endDate: DateTime.now(),
+      startDate: DateTime(2025, 5),
+      endDate: DateTime(2025, 8),
     ),
     Experience(
-      company: "Cyberify",
-      position: "Mid-Senior Flutter Developer",
+      company: "Freelance",
+      position: "Flutter Developer",
       responsibilities: [
-        "Closely collaborated with mobile developers, backend developers, UI/ UX designers and QA team multiple apps",
-        """Mainly responsible for 
-          Project Architecture
-          Authentication flows,
-          Third-party integrations,
-        """,
+        "Developed cross-platform mobile and web application using Flutter.",
+        "Designed and implemented modern, responsive UI for seamless user experience across devices",
+        "Applied state management (e.g., Provider / BLoC) to ensure scalability and maintainability.",
+        "Collaborated with client to gather requirements and deliver features on time"
       ],
-      startDate: DateTime(2022, 1),
-      endDate: DateTime(2023, 4),
+      startDate: DateTime(2025, 3),
+      endDate: DateTime(2025, 4),
     ),
     Experience(
-      company: "Amtech, LLC",
-      position: "Associate Software Engineer",
+      company: "Freelance",
+      position: "Flutter Developer",
       responsibilities: [
-        "Contributed in Music Food Delivery App, HR Management System and E-commerce app",
-        "Started learning Appwrite, Mobx and dynamic modelling in Flutter",
-        "Worked closely with UI/UX designer & Backend developer in developing Food Delivery App",
+        "Developed a multilingual Flutter Web application with support for dynamic language switching",
+        "Implemented JSON-based localization to manage translations efficiently and enable easy scalability for additional languages.",
+        "Ensured responsive design across different screen sizes for better user experience",
       ],
-      startDate: DateTime(2020, 2),
-      endDate: DateTime(2021, 12),
-    ),
-    Experience(
-      company: "Mighty Solutions",
-      position: "Backend Developer",
-      responsibilities: [
-        "Started my journey as backend developer using Php & Laravel",
-        "Closely collaborated with Mobile App Development team to ensure secure and reliable API development",
-        "Worked in Fastbooking.com.pk ( A Logistics Management Website built with Laravel )",
-      ],
-      startDate: DateTime(2019, 6),
-      endDate: DateTime(2020, 1),
+      startDate: DateTime(2025, 5),
+      endDate: DateTime(2025, 6),
     ),
   ];
 }

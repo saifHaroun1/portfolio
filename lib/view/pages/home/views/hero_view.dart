@@ -70,7 +70,7 @@ class _HeroViewState extends State<HeroView> {
                   child: Opacity(
                     opacity: 0.8,
                     child: OverlappingHeroText(
-                      text: "M",
+                      text: "S",
                       initialXOffset: 200,
                       initialYOffset: 200,
                     ),
@@ -82,7 +82,7 @@ class _HeroViewState extends State<HeroView> {
                   bottom: _isScrolled ? -100 : -50,
                   right: constraints.maxWidth * 0.2,
                   child: OverlappingHeroText(
-                    text: "Z",
+                    text: "A",
                     initialXOffset: -200,
                     initialYOffset: 200,
                   ),
@@ -97,9 +97,26 @@ class _HeroViewState extends State<HeroView> {
                           ? 130
                           : 150,
                   child: OverlappingHeroText(
-                    text: "U",
+                    text: "I",
                     initialXOffset: -200,
                     initialYOffset: 200,
+                  ),
+                ),
+                AnimatedPositioned(
+                  duration: _animDuration,
+                  curve: Curves.easeOut,
+                  left: context.isMobile
+                      ? 40
+                      : constraints.maxWidth * 0.1, // بدل right خلي left
+                  top: _isScrolled ? 300 : 100, // نفس ارتفاع الحرف الأول
+                  child: Opacity(
+                    opacity: 0.8,
+                    child: OverlappingHeroText(
+                      text: "F", // الحرف الرابع
+                      initialXOffset:
+                          -200, // نعكس الحركة الأفقية عشان يجي من الشمال
+                      initialYOffset: 200,
+                    ),
                   ),
                 ),
                 Align(
@@ -112,7 +129,7 @@ class _HeroViewState extends State<HeroView> {
                         Entry.opacity(
                           delay: Constants.smallDelay,
                           child: OverlappingText(
-                            text: "Muzammil",
+                            text: "Saif",
                             offset: Offset(-_heroTitleFontSize(context) / 3,
                                 -_heroTitleFontSize(context) / 3),
                             foreGroundStyle: Theme.of(context)
@@ -134,7 +151,7 @@ class _HeroViewState extends State<HeroView> {
                           child: Transform.translate(
                             offset: Offset(0, -20),
                             child: AutoSizeText(
-                              "Hussain",
+                              "Haroun",
                               style: Theme.of(context)
                                   .textTheme
                                   .headlineLarge
@@ -166,7 +183,7 @@ class _HeroViewState extends State<HeroView> {
                                 children: [
                                   TextSpan(
                                       text:
-                                          ", been working as a freelancer and in tech companies for years with a straight focus on the flutter and mobile world. Excited for the upcoming opportunities.",
+                                          ", I've been working as a freelancer with a strong focus on the Flutter and mobile world, and recently worked in a company. Excited for the upcoming opportunities.",
                                       style: TextStyle(
                                         fontSize: context.isDeskTop ? 16 : 12,
                                         fontWeight: FontWeight.w300,

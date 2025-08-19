@@ -88,7 +88,7 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
                         scale: _textAnimation.value,
                         child: Text.rich(
                           TextSpan(
-                            text: "MH",
+                            text: "SH",
                             style: Theme.of(context)
                                 .textTheme
                                 .titleLarge

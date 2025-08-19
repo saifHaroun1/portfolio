@@ -36,18 +36,11 @@ class ExperienceView extends StatelessWidget {
                 descriptions: [
                   "Dart & Flutter",
                   "MVC MVVM & Bloc",
+                  "Clean Architecture",
+                  "Firebase & Rest APIs",
+                  "Responsive Design",
                   "Third party integrations",
                   "And much more....",
-                ],
-              ),
-              ExperienceSection(
-                number: "03",
-                title: "BACKEND DEV",
-                descriptions: [
-                  "PHP & Laravel",
-                  "Mysql & Firebase",
-                  "PassportJs & JWT",
-                  "More in the future..."
                 ],
               ),
             ],

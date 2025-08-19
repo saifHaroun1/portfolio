@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         textDirection: TextDirection.ltr,
         child: AnimatedCursor(
           child: MaterialApp.router(
-            title: 'Muzammil Hussain',
+            title: 'Saif Haroun',
             debugShowCheckedModeBanner: false,
             theme: provider.currentTheme,
             routerConfig: router,
